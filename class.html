@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 class="title">주제목</h1>
+        
+
+        <script>
+            // 1. 태그를 선택한다.
+            var title = document.querySelector('.title');
+
+            // 2. 태그의 값을 1초 후 다른 값으로 바꾼다.
+            setTimeout(function() {
+                title.innerHTML = '변경된 주제목';
+            }, 1000);
+
+
+
+        </script>
+    </body>
+</html>
+
